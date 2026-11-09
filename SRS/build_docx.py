@@ -168,7 +168,7 @@ def add_image(path, caption):
     add_inline(c, caption, base=REG, size=8.5, color=QUIET)
 
 md=open('srs.md',encoding='utf-8').read().split('\n')
-imgs=[('nav.png',None),('er.png',None)]; img_i=0
+imgs=[('hier.png',None),('nav.png',None),('er.png',None)]; img_i=0
 i=0
 first=True
 while i<len(md):
